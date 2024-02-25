@@ -6,10 +6,10 @@ export const metadata: Metadata = {
     title: 'Home',
 };
 
-export const API_URL = 'https://nomad-movies.nomadcoders.workers.dev/movies';
+export const apiURL = 'https://nomad-movies.nomadcoders.workers.dev/movies';
 
 async function getMovies() {
-    const res = await fetch(API_URL);
+    const res = await fetch(apiURL);
     const json = await res.json();
     return json;
 }

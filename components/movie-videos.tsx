@@ -1,10 +1,10 @@
 import { Key } from 'react';
-import { API_URL } from '../app/(home)/page';
+import { apiURL } from '../app/(home)/page';
 import styles from './movie-video.module.css';
 
 async function getVideos(id: string) {
     // await new Promise((resolve) => setTimeout(resolve, 3000));
-    const response = await fetch(API_URL + `/${id}/videos`);
+    const response = await fetch(apiURL + `/${id}/videos`);
     return response.json();
 }
 

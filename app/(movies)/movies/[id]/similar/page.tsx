@@ -1,10 +1,10 @@
 import { Suspense } from 'react';
-import { API_URL } from '../../../../(home)/page';
+import { apiURL } from '../../../../(home)/page';
 import MovieInfo, { getMovie } from '../../../../../components/movie-info';
 import styles from './movie-similar.module.css';
 
 async function getSimilar(id: string) {
-    const response = await fetch(API_URL + `/${id}/similar`);
+    const response = await fetch(apiURL + `/${id}/similar`);
     return response.json();
 }
 

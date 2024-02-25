@@ -1,9 +1,9 @@
-import { API_URL } from '../../../../(home)/page';
+import { apiURL } from '../../../../(home)/page';
 import { getMovie } from '../../../../../components/movie-info';
 import styles from './movie-credits.module.css';
 
 async function getCredits(id: string) {
-    const response = await fetch(API_URL + `/${id}/credits`);
+    const response = await fetch(apiURL + `/${id}/credits`);
     return response.json();
 }
 
