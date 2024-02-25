@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
-import { apiURL } from '../../../../(home)/page';
 import MovieInfo, { getMovie } from '../../../../../components/movie-info';
 import styles from './movie-similar.module.css';
+import { apiURL } from '../../../../constants';
 
 async function getSimilar(id: string) {
     const response = await fetch(apiURL + `/${id}/similar`);

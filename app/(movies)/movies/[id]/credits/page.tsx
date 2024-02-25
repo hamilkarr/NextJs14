@@ -1,5 +1,5 @@
-import { apiURL } from '../../../../(home)/page';
 import { getMovie } from '../../../../../components/movie-info';
+import { apiURL } from '../../../../constants';
 import styles from './movie-credits.module.css';
 
 async function getCredits(id: string) {
