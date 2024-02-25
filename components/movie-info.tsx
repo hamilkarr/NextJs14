@@ -21,6 +21,7 @@ export default async function MovieInfo({ id }: { id: string }) {
                 <div className={styles.starsWithSimilar}>
                     <h3>⭐{movie.vote_average.toFixed(2)}</h3>
                     <Link href={`/movies/${id}/similar`}>See Similar Movies &rarr;</Link>
+                    <Link href={`/movies/${id}/credits`}>See Credits Movies &rarr;</Link>
                 </div>
                 <p>{movie.overview}</p>
                 <a href={movie.homepage} target={'_blank'}>
