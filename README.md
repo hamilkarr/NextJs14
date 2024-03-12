@@ -4,6 +4,9 @@
 - nginx 리버스 프록시
 - MySql 5.73
   - EUC-KR 인코딩
+ 
+![image](https://github.com/hamilkarr/NextJs14/assets/86813319/097381f4-4cc3-4352-9732-ee6be7240d2b)
+
 
 
 
@@ -27,10 +30,12 @@
 
 
 
-## 개발서버 // 테스트 디비 구축
+## 개발서버 & 테스트 디비 구축
 - 개발 서버에서 디비에 대한 테스트
 - 특히 UPDATE 또는 DELETE 에 대하여
 
 
+
+
 ## 엔진 업데이트 개요
-[Excalidraw](https://excalidraw.com/#json=z1eVCun9qB7AZ7_lw7-Rd,44mNV3gafwj1gEQJcejdXQ)
+[Excalidraw](https://excalidraw.com/#json=GA-wtQ0q9_jKGv1uLpoQQ,di1WWJe49hNQSQ04u0tDHg)
